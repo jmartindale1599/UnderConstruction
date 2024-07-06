@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset",
+				"C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Levels/WeatherTesting.umap",
+				"C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Levels/Rain_System.uasset",
+				"C:/Program Files/Epic Games/UE_5.3/Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset",
+				"C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/VRSpectator/VRSpectator.uasset",
 				"C:/Users/jmartindale/Desktop/UnderConstruction/UndaConstructionMate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/jmartindale/Desktop/UnderConstruction/UndaConstructionMate/Content/VRTemplate/Maps/VRTemplateMap.umap"
 			]
