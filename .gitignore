@@ -75,8 +75,8 @@ Intermediate/Android/*
 # Cache files for the editor to use
 DerivedDataCache/*
 Saved/*
-/UndaConstructionMate/Binaries
-/UndaConstructionMate/Saved
-/UndaConstructionMate/Build
-/UndaConstructionMate/Intermediate
+/UndaConstructionMate/Binaries/*
+/UndaConstructionMate/Saved/*
+/UndaConstructionMate/Build/*
+/UndaConstructionMate/Intermediate/*
 *.log
