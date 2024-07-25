@@ -80,3 +80,5 @@ Saved/*
 /UndaConstructionMate/Build/*
 /UndaConstructionMate/Intermediate/*
 *.log
+/UndaConstructionMate/Saved
+/UndaConstructionMate/Saved/Config
