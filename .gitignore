@@ -82,3 +82,14 @@ Saved/*
 *.log
 /UndaConstructionMate/Saved
 /UndaConstructionMate/Saved/Config
+/UndaConstructionMate/Binaries/Android
+/UndaConstructionMate/Binaries/Android
+/UndaConstructionMate/Binaries
+/UndaConstructionMate/Saved
+*.log
+/UndaConstructionMate/Binaries
+/UndaConstructionMate/Build
+/UndaConstructionMate/Saved
+*.log
+/UndaConstructionMate/Saved/Logs
+/UndaConstructionMate/Intermediate
