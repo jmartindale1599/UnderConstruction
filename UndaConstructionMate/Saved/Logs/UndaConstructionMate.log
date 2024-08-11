@@ -3443,3 +3443,89 @@ The following settings have been applied:
 [2024.08.11-00.25.05:642][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 293 ms (total: 33.3 sec)
 [2024.08.11-00.25.05:643][128]AssetCheck: New page: Asset Save: BP_Template_Wall
 [2024.08.11-00.25.05:643][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Templates/BP_Template_Wall.BP_Template_Wall
+[2024.08.11-00.25.31:545][406]BlueprintLog: New page: Compile BP_Template_Wall
+[2024.08.11-00.25.31:635][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.08.11-00.26.23:529][375]LogDebuggerCommands: Repeating last play command: Simulate
+[2024.08.11-00.26.23:538][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.11-00.26.23:538][375]PIE: New page: SIE session: FireTesting (Aug 10, 2024, 12:26:23 PM)
+[2024.08.11-00.26.23:538][375]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FireTesting
+[2024.08.11-00.26.23:543][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004790s)
+[2024.08.11-00.26.23:543][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FireTesting.FireTesting to /Game/Levels/UEDPIE_0_FireTesting.FireTesting (0.004835s)
+[2024.08.11-00.26.23:597][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.08.11-00.26.23:600][375]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.08.11-00.26.23:600][375]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.08.11-00.26.23:601][375]LogAIModule: Creating AISystem for world FireTesting
+[2024.08.11-00.26.23:601][375]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2024.08.11-00.26.23:601][375]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.11-00.26.23:601][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.11-00.26.23:601][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.11-00.26.23:603][375]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.11-00.26.23:603][375]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.11-00.26.23:603][375]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.11-00.26.23:606][375]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.11-00.26.23:644][375]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Matt's Beats Studio Buds)
+[2024.08.11-00.26.23:645][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.11-00.26.23:645][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.11-00.26.23:645][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.11-00.26.23:647][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.08.11-00.26.23:647][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.08.11-00.26.23:649][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.08.11-00.26.23:649][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.08.11-00.26.23:649][375]LogInit: FAudioDevice initialized with ID 13.
+[2024.08.11-00.26.23:649][375]LogAudio: Display: Audio Device (ID: 13) registered with world 'FireTesting'.
+[2024.08.11-00.26.23:649][375]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.11-00.26.23:653][375]LogLoad: Game class is 'VRGameMode_C'
+[2024.08.11-00.26.23:655][375]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FireTesting.FireTesting up for play (max tick rate 60) at 2024.08.10-18.26.23
+[2024.08.11-00.26.23:656][375]LogWorld: Bringing up level for play took: 0.002011
+[2024.08.11-00.26.23:659][375]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.08.11-00.26.23:661][375]PIE: Server logged in
+[2024.08.11-00.26.23:662][375]PIE: Play in editor total start time 0.124 seconds.
+[2024.08.11-00.26.34:875][949]LogScript: Warning: Script Msg: Template_Wall_C_1 Damage Build SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.08.11-00.26.34:875][949]LogScript: Warning: Script Msg called by: BP_Template_Wall_C /Game/Levels/UEDPIE_0_FireTesting.FireTesting:PersistentLevel.Template_Wall_C_1
+[2024.08.11-00.26.41:597][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.11-00.26.41:597][299]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_FireTesting
+[2024.08.11-00.26.41:598][299]LogWorld: UWorld::CleanupWorld for FireTesting, bSessionEnded=true, bCleanupResources=true
+[2024.08.11-00.26.41:598][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.11-00.26.41:647][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.11-00.26.41:655][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.11-00.26.41:676][299]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.11-00.26.41:676][299]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.08.11-00.26.41:677][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.11-00.26.41:679][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.08.11-00.26.41:684][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.11-00.26.41:687][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.08.11-00.26.41:745][300]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.08.11-00.27.03:650][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.11-00.27.03:761][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.08.11-00.27.03:775][141]LogSavePackage: Moving output files for package: /Game/Levels/FireTesting
+[2024.08.11-00.27.03:775][141]LogSavePackage: Moving '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Saved/FireTesting6F2488F64D9BDE5E67477ABD74957006.tmp' to '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Levels/FireTesting.umap'
+[2024.08.11-00.27.03:783][141]LogFileHelpers: Saving map 'FireTesting' took 0.056
+[2024.08.11-00.27.03:807][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 33.4 sec)
+[2024.08.11-00.27.03:809][141]AssetCheck: New page: Asset Save: FireTesting
+[2024.08.11-00.27.03:809][141]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/FireTesting.FireTesting
+[2024.08.11-00.31.00:579][248]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.11-00.31.00:815][248]LogSavePackage: Moving output files for package: /Game/Templates/BP_Template_Wall
+[2024.08.11-00.31.00:816][248]LogSavePackage: Moving '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Saved/BP_Template_Wall677AB680428F8503F16F37874B7EB546.tmp' to '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Templates/BP_Template_Wall.uasset'
+[2024.08.11-00.31.00:851][248]LogFileHelpers: InternalPromptForCheckoutAndSave took 271 ms (total: 33.7 sec)
+[2024.08.11-00.31.00:852][248]AssetCheck: New page: Asset Save: BP_Template_Wall
+[2024.08.11-00.31.00:852][248]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Templates/BP_Template_Wall.BP_Template_Wall
+[2024.08.11-00.31.28:052][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.11-00.31.28:345][654]LogSavePackage: Moving output files for package: /Game/Templates/BP_Template_Wall
+[2024.08.11-00.31.28:345][654]LogSavePackage: Moving '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Saved/BP_Template_Wall8A23B1334918B6C4BF4FD0B0AB7A395C.tmp' to '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Templates/BP_Template_Wall.uasset'
+[2024.08.11-00.31.28:431][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 378 ms (total: 34.1 sec)
+[2024.08.11-00.31.28:433][654]AssetCheck: New page: Asset Save: BP_Template_Wall
+[2024.08.11-00.31.28:433][654]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Templates/BP_Template_Wall.BP_Template_Wall
+[2024.08.11-00.31.35:274][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.11-00.31.35:467][858]LogSavePackage: Moving output files for package: /Game/Templates/BP_Template_Wall
+[2024.08.11-00.31.35:467][858]LogSavePackage: Moving '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Saved/BP_Template_Wall93FFD52B4B53E59C74488E8E32828241.tmp' to '../../../../../../Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Content/Templates/BP_Template_Wall.uasset'
+[2024.08.11-00.31.35:556][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 281 ms (total: 34.4 sec)
+[2024.08.11-00.31.35:558][858]AssetCheck: New page: Asset Save: BP_Template_Wall
+[2024.08.11-00.31.35:558][858]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Templates/BP_Template_Wall.BP_Template_Wall
+[2024.08.11-00.37.20:477][585]BlueprintLog: New page: Compile BP_Template_Wall
+[2024.08.11-00.37.20:575][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
