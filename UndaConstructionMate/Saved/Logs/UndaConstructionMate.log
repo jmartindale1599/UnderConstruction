@@ -17,14 +17,14 @@ LogCsvProfiler: Display: Metadata set : platform="Windows"
 LogCsvProfiler: Display: Metadata set : config="Development"
 LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.3-CL-29314046"
 LogCsvProfiler: Display: Metadata set : engineversion="5.3.2-29314046+++UE5+Release-5.3"
-LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.3958] "
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.4651] "
 LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz"
 LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
 LogCsvProfiler: Display: Metadata set : ltoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\mmunozramirez\Documents\Unreal Projects\UnderConstruction\UndaConstructionMate\UndaConstructionMate.uproject"""
-LogCsvProfiler: Display: Metadata set : loginid="671227344ce1f7aed5ce03ab50a35348"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\jmartindale\Desktop\UnderConstruction\UnderConstruction\UndaConstructionMate\UndaConstructionMate.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="02662c0340694c4009dd3d9574427de9"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 1.059971
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
@@ -45,6 +45,8 @@ LogPluginManager: Mounting Engine plugin EnhancedInput
 LogPluginManager: Found config from plugin[EnhancedInput] Input
 LogPluginManager: Mounting Engine plugin Bridge
 LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
 LogPluginManager: Mounting Engine plugin MeshPainting
 LogPluginManager: Mounting Engine plugin TraceUtilities
 LogPluginManager: Mounting Engine plugin XGEController
@@ -215,6 +217,7 @@ LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
 LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
 LogPluginManager: Mounting Engine plugin ConcertSyncClient
 LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
@@ -290,13 +293,65 @@ LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: Created online subsystem instance for: NULL
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
 LogHMD: OpenXRHMDModule::InitInstance using DefaultLoader.
-LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+LogHMD: OpenXR runtime supported extensions:
+LogHMD: 	XR_KHR_vulkan_enable
+LogHMD: 	XR_KHR_vulkan_enable2
+LogHMD: 	XR_KHR_D3D11_enable
+LogHMD: 	XR_KHR_D3D12_enable
+LogHMD: 	XR_KHR_opengl_enable
+LogHMD: 	XR_KHR_win32_convert_performance_counter_time
+LogHMD: 	XR_EXT_win32_appcontainer_compatible
+LogHMD: 	XR_KHR_binding_modification
+LogHMD: 	XR_KHR_composition_layer_depth
+LogHMD: 	XR_KHR_visibility_mask
+LogHMD: 	XR_EXT_active_action_set_priority
+LogHMD: 	XR_EXT_dpad_binding
+LogHMD: 	XR_EXT_frame_composition_report
+LogHMD: 	XR_EXT_hand_tracking
+LogHMD: 	XR_EXT_hand_tracking_data_source
+LogHMD: 	XR_EXT_hand_joints_motion_range
+LogHMD: 	XR_EXT_hp_mixed_reality_controller
+LogHMD: 	XR_EXT_local_floor
+LogHMD: 	XR_EXT_palm_pose
+LogHMD: 	XR_FB_display_refresh_rate
+LogHMD: 	XR_HTC_vive_cosmos_controller_interaction
+LogHMD: 	XR_HTC_vive_focus3_controller_interaction
+LogHMD: 	XR_HTC_vive_wrist_tracker_interaction
+LogHMD: 	XR_MND_headless
+LogHMD: 	XR_VALVE_analog_threshold
+LogHMD: 	XR_HTCX_vive_tracker_interaction
+LogHMD: 	XR_EXT_debug_utils
+LogHMD: Optional extension XR_KHR_vulkan_swapchain_format_list is not available
+LogHMD: Optional extension XR_FB_foveation_vulkan is not available
+LogHMD: Optional extension XR_KHR_composition_layer_cylinder is not available
+LogHMD: Optional extension XR_KHR_composition_layer_equirect is not available
+LogHMD: Optional extension XR_VARJO_quad_views is not available
+LogHMD: Optional extension XR_EPIC_view_configuration_fov is not available
+LogHMD: Optional extension XR_FB_composition_layer_alpha_blend is not available
+LogHMD: Optional extension XR_FB_foveation is not available
+LogHMD: Optional extension XR_FB_swapchain_update_state is not available
+LogHMD: Optional extension XR_FB_foveation_configuration is not available
+LogHMD: Optional extension XR_OCULUS_audio_device_guid is not available
+LogHMD: Warning: Required extension XR_EXT_eye_gaze_interaction is not available
+LogHMD: Could not enable all required OpenXR extensions for OpenXREyeTracker on current system. This plugin will be loaded but ignored, but will be enabled on a target platform that supports the required extension.
+LogHMD: Failed to create an OpenXR instance, result is XR_ERROR_RUNTIME_FAILURE. Please check if you have an OpenXR runtime installed. The following extensions were enabled:
+LogHMD: - XR_KHR_D3D11_enable
+LogHMD: - XR_KHR_D3D12_enable
+LogHMD: - XR_KHR_opengl_enable
+LogHMD: - XR_KHR_vulkan_enable
+LogHMD: - XR_KHR_composition_layer_depth
+LogHMD: - XR_KHR_visibility_mask
+LogHMD: - XR_KHR_binding_modification
+LogHMD: - XR_EXT_dpad_binding
+LogHMD: - XR_EXT_palm_pose
+LogHMD: - XR_EXT_active_action_set_priority
+LogHMD: - XR_EXT_hand_tracking
 LogInit: ExecutableName: UnrealEditor.exe
 LogInit: Build: ++UE5+Release-5.3-CL-29314046
 LogInit: Engine Version: 5.3.2-29314046+++UE5+Release-5.3
 LogInit: Compatible Engine Version: 5.3.0-27405482+++UE5+Release-5.3
 LogInit: Net CL: 27405482
-LogInit: OS: Windows 11 (23H2) [10.0.22631.3958] (), CPU: 11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz, GPU: Intel(R) UHD Graphics
+LogInit: OS: Windows 10 (22H2) [10.0.19045.4651] (), CPU: 11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz, GPU: NVIDIA GeForce RTX 3070 Laptop GPU
 LogInit: Compiled (64-bit): Nov  3 2023 16:09:16
 LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.36.32537.00
@@ -344,7 +399,7 @@ LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B):
 LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
 LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
 LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
-LogCoreRedirects: AddRedirect(C:/Users/mmunozramirez/Documents/Unreal Projects/UnderConstruction/UndaConstructionMate/Saved/Config/WindowsEditor/NiagaraFluids.ini) has substring redirect /NiagaraSimulationStages/, these are very slow and should be resolved as soon as possible!
+LogCoreRedirects: AddRedirect(C:/Users/jmartindale/Desktop/UnderConstruction/UnderConstruction/UndaConstructionMate/Saved/Config/WindowsEditor/NiagaraFluids.ini) has substring redirect /NiagaraSimulationStages/, these are very slow and should be resolved as soon as possible!
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Set CVar [[con.DebugEarlyDefault:1]]

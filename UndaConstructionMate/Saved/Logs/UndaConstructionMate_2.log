@@ -89,7 +89,7 @@ LogPluginManager: Mounting Engine plugin AudioWidgets
 LogPluginManager: Mounting Engine plugin CableComponent
 LogPluginManager: Mounting Engine plugin ChunkDownloader
 LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
-LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin AudioWidgets
 LogPluginManager: Mounting Engine plugin GeometryProcessing
 LogPluginManager: Mounting Engine plugin GooglePAD
 LogPluginManager: Mounting Engine plugin CustomMeshComponent
@@ -137,6 +137,7 @@ LogPluginManager: Mounting Engine plugin PerforceSourceControl
 LogPluginManager: Mounting Engine plugin PropertyAccessNode
 LogPluginManager: Mounting Engine plugin PlasticSourceControl
 LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
 LogPluginManager: Mounting Engine plugin RenderDocPlugin
 LogPluginManager: Mounting Engine plugin SubversionSourceControl
 LogPluginManager: Mounting Engine plugin TextureFormatOodle
@@ -183,10 +184,10 @@ LogPluginManager: Mounting Engine plugin BackChannel
 LogPluginManager: Mounting Engine plugin ChaosCaching
 LogPluginManager: Mounting Engine plugin ChaosCloth
 LogPluginManager: Mounting Engine plugin ChaosClothEditor
-LogPluginManager: Mounting Engine plugin ChaosNiagara
-LogPluginManager: Mounting Engine plugin ChaosEditor
 LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
 LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosEditor
 LogPluginManager: Mounting Engine plugin CharacterAI
 LogPluginManager: Mounting Engine plugin Dataflow
 LogPluginManager: Mounting Engine plugin FullBodyIK
@@ -248,8 +249,8 @@ LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Virtual
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
@@ -288,7 +289,48 @@ PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is
 LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
 RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
 LogHMD: OpenXRHMDModule::InitInstance using DefaultLoader.
-LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+LogHMD: OpenXR runtime supported extensions:
+LogHMD: 	XR_KHR_vulkan_enable
+LogHMD: 	XR_KHR_vulkan_enable2
+LogHMD: 	XR_KHR_D3D11_enable
+LogHMD: 	XR_KHR_D3D12_enable
+LogHMD: 	XR_KHR_opengl_enable
+LogHMD: 	XR_KHR_win32_convert_performance_counter_time
+LogHMD: 	XR_EXT_win32_appcontainer_compatible
+LogHMD: 	XR_KHR_binding_modification
+LogHMD: 	XR_KHR_composition_layer_depth
+LogHMD: 	XR_KHR_visibility_mask
+LogHMD: 	XR_EXT_active_action_set_priority
+LogHMD: 	XR_EXT_dpad_binding
+LogHMD: 	XR_EXT_frame_composition_report
+LogHMD: 	XR_EXT_hand_tracking
+LogHMD: 	XR_EXT_hand_tracking_data_source
+LogHMD: 	XR_EXT_hand_joints_motion_range
+LogHMD: 	XR_EXT_hp_mixed_reality_controller
+LogHMD: 	XR_EXT_local_floor
+LogHMD: 	XR_EXT_palm_pose
+LogHMD: 	XR_FB_display_refresh_rate
+LogHMD: 	XR_HTC_vive_cosmos_controller_interaction
+LogHMD: 	XR_HTC_vive_focus3_controller_interaction
+LogHMD: 	XR_HTC_vive_wrist_tracker_interaction
+LogHMD: 	XR_MND_headless
+LogHMD: 	XR_VALVE_analog_threshold
+LogHMD: 	XR_HTCX_vive_tracker_interaction
+LogHMD: 	XR_EXT_debug_utils
+LogHMD: Optional extension XR_KHR_vulkan_swapchain_format_list is not available
+LogHMD: Optional extension XR_FB_foveation_vulkan is not available
+LogHMD: Optional extension XR_KHR_composition_layer_cylinder is not available
+LogHMD: Optional extension XR_KHR_composition_layer_equirect is not available
+LogHMD: Optional extension XR_VARJO_quad_views is not available
+LogHMD: Optional extension XR_EPIC_view_configuration_fov is not available
+LogHMD: Optional extension XR_FB_composition_layer_alpha_blend is not available
+LogHMD: Optional extension XR_FB_foveation is not available
+LogHMD: Optional extension XR_FB_swapchain_update_state is not available
+LogHMD: Optional extension XR_FB_foveation_configuration is not available
+LogHMD: Optional extension XR_OCULUS_audio_device_guid is not available
+LogHMD: Warning: Required extension XR_EXT_eye_gaze_interaction is not available
+LogHMD: Could not enable all required OpenXR extensions for OpenXREyeTracker on current system. This plugin will be loaded but ignored, but will be enabled on a target platform that supports the required extension.
+LogHMD: Initialized OpenXR on SteamVR/OpenXR runtime version 2.7.4
 LogInit: ExecutableName: UnrealEditor.exe
 LogInit: Build: ++UE5+Release-5.3-CL-29314046
 LogInit: Engine Version: 5.3.2-29314046+++UE5+Release-5.3
@@ -300,7 +342,7 @@ LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.36.32537.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE5+Release-5.3
-LogInit: Command Line: 
+LogInit: Command Line: /Game/Levels/GameDemoMap -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=PIEGameUserSettings0 -MultiprocessSaveConfig -forcepassthrough -messaging -SessionName="Play in Standalone Game" -windowed -WinX=976 -WinY=385 SAVEWINPOS=1 -ResX=1322 -ResY=930
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
