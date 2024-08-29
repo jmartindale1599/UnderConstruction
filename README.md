@@ -6,8 +6,10 @@
 - **Experimental Niagara Fluid System:** This project integrates Unreal Engine's cutting-edge Niagara Fluid System to create dynamic and realistic environmental effects.
 
 ### Media
+- **[Pitch](https://docs.google.com/presentation/d/1fsKhAs0r9T8bPbLcAjkF9SC-CW7CvVaepdvmhjGPwOw/edit#slide=id.gc6f80d1ff_0_0)**
 - **[Trailer](https://www.youtube.com/watch?v=Crho7PM4hu0&t=2s)**
 - **[Gameplay Video](https://github.com/jmartindale1599/UnderConstruction)**
+- **[Product](https://docs.google.com/presentation/d/1lFXIi0E_pUthzNZEjqZv1VpOdkqf0ix1ltAs1NII_zo/edit#slide=id.gc6f80d1ff_0_0)**
 
 ### Getting Started
 To play **Under Construction**:
